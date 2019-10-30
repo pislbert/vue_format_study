@@ -33,6 +33,33 @@
 <script>
 export default {
   name: 'HelloWorld',
+  data() {
+    return {
+      a: [
+        1,
+        2,
+        3
+      ],
+      b: [
+        2,
+        3,
+        4
+      ],
+      c: [
+        2,
+        3,
+        33,
+        88,
+        55,
+        66,
+        77,
+        88,
+        99,
+        100
+      ],
+      d: [1]
+    }
+  },
   props: {
     msg: String
   }
